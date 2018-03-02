@@ -70,7 +70,7 @@ if (isset($_POST['txt1']) and isset($_POST['txt2']) and strlen($_POST['txt1']) >
         <meta content="" name="description" />
         <meta content="" name="CEMA NEXT" />
         <!-- BEGIN GLOBAL MANDATORY STYLES -->
-        <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700&subset=all" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700&subset=all" rel="stylesheet" type="text/css" />
         <link href="<?=BASE_URL?>/assets/global/plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
         <link href="<?=BASE_URL?>/assets/global/plugins/simple-line-icons/simple-line-icons.min.css" rel="stylesheet" type="text/css" />
         <link href="<?=BASE_URL?>/assets/global/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
@@ -499,7 +499,7 @@ if (isset($_POST['txt1']) and isset($_POST['txt2']) and strlen($_POST['txt1']) >
         </div>
         <!-- END LOGIN -->
         <!-- BEGIN COPYRIGHT -->
-        <div class="copyright">Copyright &copy; 2017 powered by CEMA NEXT <br/> Ultimo aggiornamento <?php echo date("Y-m-d H:i:s"); ?></div>
+        <div class="copyright">Copyright &copy; <?php echo date("Y"); ?> <br/> Ultimo aggiornamento <?php echo date("Y-m-d H:i:s"); ?></div>
         <!-- END COPYRIGHT -->
         <!--[if lt IE 9]>
 <script src="/assets/global/plugins/respond.min.js"></script>

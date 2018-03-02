@@ -277,7 +277,7 @@ function footerJSload($core=true, $page=true, $theme=true){
  function pageFooterCopy(){
     $ret = '<!-- BEGIN FOOTER -->
             <div class="page-footer">
-                <div class="page-footer-inner"> Copyright &copy; <?= date("Y") ?> powered by '.COPYRIGHT.' - '.VERSIONE.' - Ultimo aggiornamento '.LAST_UPDATE.'
+                <div class="page-footer-inner"> Copyright &copy; '.date("Y").' - '.VERSIONE.' - Ultimo aggiornamento '.LAST_UPDATE.'
                 <?php
                 //echo  $testo_debug;
                 ?>
