@@ -91,6 +91,9 @@ define('WP_DOMAIN_NAME', 'http://www.cndl.it');
 define('WP_DB_NAME', 'cndl_wp');
 
 /** CONFIGURAZIONE RINNOVI **/
+define('ID_CAMPAGNA_TELEFONATE', '7');
+define('ID_CAMPAGNA_RINNOVI', '58');
+define('ID_TIPO_MARKETING_RINNOVI', '21');
 define('ID_CAMPAGNA_RINNOVI_AUTOMATICI', '39');
 define('ID_TIPO_MARKETING_RINNOVI_AUTOMATICI', '20');
 
